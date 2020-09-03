@@ -16,7 +16,7 @@ COPY schema.pgsql ./
 COPY entrypoint.sh ./
 
 
-EXPOSE 80
+EXPOSE 8085
 
 
 ENTRYPOINT ./entrypoint.sh
